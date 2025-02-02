@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Saira+Extra+Condensed:wght@700&display=swap');
+@import "slick-carousel/slick/slick.css"; 
+@import "slick-carousel/slick/slick-theme.css"; 
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ffffff;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Saira Extra Condensed', serif;}
